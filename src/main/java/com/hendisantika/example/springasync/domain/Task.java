@@ -1,4 +1,4 @@
-package com.nibado.example.springasync.domain;
+package com.hendisantika.example.springasync.domain;
 
 import com.squareup.okhttp.Request;
 import com.squareup.okhttp.Response;

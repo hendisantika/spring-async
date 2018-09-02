@@ -1,9 +1,9 @@
-package com.nibado.example.springasync;
+package com.hendisantika.example.springasync;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.github.tomakehurst.wiremock.core.WireMockConfiguration;
 import com.github.tomakehurst.wiremock.junit.WireMockRule;
-import com.nibado.example.springasync.domain.ApiRequest;
+import com.hendisantika.example.springasync.domain.ApiRequest;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import org.hamcrest.Matchers;

@@ -1,4 +1,4 @@
-package com.nibado.example.springasync;
+package com.hendisantika.example.springasync;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.junit.Before;
@@ -27,7 +27,7 @@ public class SimpleControllerIntegrationTest {
     private MockMvc mockMvc;
 
     @Before
-    public void setup() throws Exception {
+    public void setup() {
         mockMvc = webAppContextSetup(this.wac).build();
     }
 

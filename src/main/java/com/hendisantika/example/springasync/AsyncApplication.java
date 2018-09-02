@@ -1,11 +1,11 @@
-package com.nibado.example.springasync;
+package com.hendisantika.example.springasync;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
 public class AsyncApplication {
-    public static void main(final String[] args) throws Exception {
+    public static void main(final String[] args) {
         SpringApplication.run(AsyncApplication.class, args);
     }
 }

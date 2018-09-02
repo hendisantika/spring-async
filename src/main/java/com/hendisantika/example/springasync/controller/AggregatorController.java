@@ -1,9 +1,9 @@
-package com.nibado.example.springasync.controller;
+package com.hendisantika.example.springasync.controller;
 
-import com.nibado.example.springasync.domain.AggregateResponse;
-import com.nibado.example.springasync.domain.ApiRequest;
-import com.nibado.example.springasync.domain.Task;
-import com.nibado.example.springasync.service.AggregatorService;
+import com.hendisantika.example.springasync.domain.AggregateResponse;
+import com.hendisantika.example.springasync.domain.ApiRequest;
+import com.hendisantika.example.springasync.domain.Task;
+import com.hendisantika.example.springasync.service.AggregatorService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;

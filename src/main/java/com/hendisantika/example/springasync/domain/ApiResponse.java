@@ -1,4 +1,4 @@
-package com.nibado.example.springasync.domain;
+package com.hendisantika.example.springasync.domain;
 
 import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonRawValue;

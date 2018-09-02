@@ -1,6 +1,6 @@
-package com.nibado.example.springasync.service;
+package com.hendisantika.example.springasync.service;
 
-import com.nibado.example.springasync.domain.Task;
+import com.hendisantika.example.springasync.domain.Task;
 import com.squareup.okhttp.Callback;
 import com.squareup.okhttp.OkHttpClient;
 import com.squareup.okhttp.Request;

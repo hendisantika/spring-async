@@ -1,4 +1,4 @@
-package com.nibado.example.springasync.domain;
+package com.hendisantika.example.springasync.domain;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
