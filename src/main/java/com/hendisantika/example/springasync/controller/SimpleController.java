@@ -3,8 +3,8 @@ package com.hendisantika.example.springasync.controller;
 import com.hendisantika.example.springasync.domain.TimeResponse;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.context.request.async.DeferredResult;
 
@@ -19,25 +19,25 @@ import java.util.concurrent.atomic.AtomicInteger;
 public class SimpleController {
     private final AtomicInteger counter = new AtomicInteger(0);
 
-    @RequestMapping(value = "/basic", method = RequestMethod.GET)
+    @GetMapping(value = "/basic")
     public TimeResponse timeBasic() {
         log.info("Basic time request");
         return now();
     }
 
-    @RequestMapping(value = "/re", method = RequestMethod.GET)
+    @GetMapping(value = "/re")
     public ResponseEntity<?> timeResponseEntity() {
         log.info("Response entity request");
         return ResponseEntity.ok(now());
     }
 
-    @RequestMapping(value = "/callable", method = RequestMethod.GET)
+    @GetMapping(value = "/callable")
     public Callable<ResponseEntity<?>> timeCallable() {
         log.info("Callable time request");
         return () -> ResponseEntity.ok(now());
     }
 
-    @RequestMapping(value = "/deferred", method = RequestMethod.GET)
+    @GetMapping(value = "/deferred")
     public DeferredResult<ResponseEntity<?>> timeDeferred() {
         log.info("Deferred time request");
         DeferredResult<ResponseEntity<?>> result = new DeferredResult<>();
