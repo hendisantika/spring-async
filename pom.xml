@@ -22,7 +22,7 @@
 
         <assertj.version>3.16.1</assertj.version>
         <junit.version>4.13.2</junit.version>
-        <wiremock.version>2.26.3</wiremock.version>
+        <wiremock.version>2.27.2</wiremock.version>
     </properties>
 
     <build>
