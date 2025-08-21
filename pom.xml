@@ -15,7 +15,7 @@
         <jackson.version>2.19.2</jackson.version>
         <lombok.version>1.18.38</lombok.version>
         <okhttp.version>5.1.0</okhttp.version>
-        <spring.boot.version>3.5.4</spring.boot.version>
+        <spring.boot.version>3.5.5</spring.boot.version>
 
         <logback.version>1.5.18</logback.version>
         <slf4j.version>2.0.17</slf4j.version>
