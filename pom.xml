@@ -13,7 +13,7 @@
         <maven.compiler.target>21</maven.compiler.target>
 
         <jackson.version>2.20.0</jackson.version>
-        <lombok.version>1.18.38</lombok.version>
+        <lombok.version>1.18.40</lombok.version>
         <okhttp.version>5.1.0</okhttp.version>
         <spring.boot.version>3.5.4</spring.boot.version>
 
