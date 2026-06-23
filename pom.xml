@@ -17,7 +17,7 @@
         <okhttp.version>5.4.0</okhttp.version>
         <spring.boot.version>4.1.0</spring.boot.version>
 
-        <logback.version>1.5.34</logback.version>
+        <logback.version>1.5.35</logback.version>
         <slf4j.version>2.0.18</slf4j.version>
 
         <assertj.version>3.16.1</assertj.version>
